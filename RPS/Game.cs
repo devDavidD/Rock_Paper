@@ -24,9 +24,12 @@ namespace RPS
         public void DisplayRules()
         {
             Console.WriteLine("Rock crushes Scissors, Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard,Lizard poisons Spock, Spock smashes Scissors, Scissors decapitate Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock");
-                    
-                 
-                
+        }
+        public void DeterminePlayer2()
+        {
+            Console.WriteLine("Type 1 to play versus the Computer. Type 2 to play your friend on console");
+            string response =
+            Console.ReadLine();
         }
 
 
