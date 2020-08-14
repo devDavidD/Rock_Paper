@@ -8,10 +8,9 @@ namespace RPS
     {
         //member variables (has a)
         //AI has all member variables of Player class
-
-        //ctor
+          //ctor
         public AI() 
-        {
+        { 
 
 
 
@@ -19,6 +18,8 @@ namespace RPS
         public override void ChooseMove()
         {
             //utilize random to choose Move
+            Console.WriteLine(chosenGesture);
+            string response = Console.ReadLine();
             //AI has the moves list from Player
             //use random number to get a random index from moves list
             //set that random string to the member variable chosenGesture

@@ -7,14 +7,14 @@ namespace RPS
 {
     class Human : Player
     {
-        public Human()
+        public Human(  )
         {
             name = "E";
         }
         public override void ChooseMove(  )
         {
             Console.WriteLine("rock", "paper", "scissors", "lizard", "spock");
-            string response = Console.ReadLine();
+            string response = Console.ReadLine(  );
         }
     }
 }
