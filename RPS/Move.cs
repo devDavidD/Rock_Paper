@@ -6,5 +6,15 @@ namespace RPSLS
 {
     class Move
     {
+        //member variables (HAS A )
+
+        //ctor
+        public Move()
+        {
+
+        }
+        //member variables (Can do)
+
+
     }
 }

@@ -6,19 +6,26 @@ namespace RPS
 {
     class Human : Player
     {
+        //member variables (has a)
 
+        //ctor
         public Human()
         {
-            //member variables (has a)
+            
 
             name = "";
-
-            //ctor
+           
+            
 
 
 
             //member variable (can do)
 
+        }
+
+        public override void ChooseMove()
+        {
+            //display choices and get user input
         }
     }
 }
