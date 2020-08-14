@@ -7,12 +7,13 @@ namespace RPSLS
     class Move
     {
         //member variables (HAS A )
-
+        string rock;
+        string paper;
+        string scissors;
+        string lizard;
+        string spock;
         //ctor
-        public Move()
-        {
-
-        }
+        
         //member variables (Can do)
 
 

@@ -34,53 +34,54 @@ namespace RPS
             {
                 player2 = new Human();
             }
-            else 
+            else
             {
                 player2 = new AI();
             }
-            public void CompareMove()
-            {
-                //p1 gets a point
-                //p2 gets a point
-                //tie round
-
-            }
-            public void DisplayWinnerOfGame()
-            {
-                
-            }
-            public void RunGame()
-            {
-                //Remember to validate
-                //Insert Intro
-                //Welcome
-                Welcome();
-                DisplayRules();
-                //Display rules
-                DeterminePlayer2();
-                //optional game variables : 
-                //player name, number of          ''rounds
-
-                //Rounds of gameplay, use loop
-                //display CHOOSE MOVE OPT
-                //Player 1 makes choice
-                player1.ChooseMove();
-                //display move opt if human
-
-                player2.ChooseMove();
-                //player 2 makes gesture choice
-                CompareMove();
-                //winner gets point
-                //move to next round if no one has won yet
-                DisplayWinnerOfGame();
-                // Do you want to play again ?
-            }
-
-
-
-
+        }
+        public void CompareMove()
+        {
+            //p1 gets a point
+            //p2 gets a point
+            //tie round
 
         }
+        public void DisplayWinnerOfGame()
+        {
+
+        }
+        public void RunGame()
+        {
+            //Remember to validate
+            //Insert Intro
+            //Welcome
+            Welcome();
+            DisplayRules();
+            //Display rules
+            DeterminePlayer2();
+            //optional game variables : 
+            //player name, number of          ''rounds
+
+            //Rounds of gameplay, use loop
+            //display CHOOSE MOVE OPT
+            //Player 1 makes choice
+            player1.ChooseMove();
+            //display move opt if human
+
+            player2.ChooseMove();
+            //player 2 makes gesture choice
+            CompareMove();
+            //winner gets point
+            //move to next round if no one has won yet
+            DisplayWinnerOfGame();
+            // Do you want to play again ?
+        }
+
+
+
+
+
+
 
 
         //member variables (can do)
