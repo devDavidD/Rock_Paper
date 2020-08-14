@@ -11,7 +11,7 @@ namespace RPS
         {
             //member variables (has a)
 
-            name = "Bill";
+            name = "";
 
             //ctor
 
